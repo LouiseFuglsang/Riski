@@ -1,0 +1,2 @@
+riskAnalysisTitle{"Kan ikke komme op om morgen", "Misser undervisning, komma noget.", "2"}
+riskAnalysisTitle{"Kan ikke komme op om morgen", "Misser undervisning, noget", "2"}

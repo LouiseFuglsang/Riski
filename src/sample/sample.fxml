@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="131.0" prefWidth="412.0" style="-fx-background-color: lightgreen;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <TextArea fx:id="riskTitle" layoutX="30.0" layoutY="28.0" prefHeight="33.0" prefWidth="91.0" promptText="Risiko titel" />
+      <TextArea fx:id="consequence" layoutX="142.0" layoutY="27.0" prefHeight="33.0" prefWidth="91.0" promptText="Konsekvens" />
+      <TextArea fx:id="priority" layoutX="255.0" layoutY="27.0" prefHeight="33.0" prefWidth="91.0" promptText="Prioritet" />
+      <Button fx:id="save" layoutX="66.0" layoutY="79.0" mnemonicParsing="false" onAction="#saveChanges" text="Gem" />
+      <Button fx:id="readIn" layoutX="229.0" layoutY="79.0" mnemonicParsing="false" onAction="#readIn" text="Indlæs" />
+   </children>
+</Pane>
